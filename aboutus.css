@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+.wc{
+    position:absolute;
+    width: 1519px;
+    height: 154px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 #000606;
+}
+.hea{
+    position: absolute;
+width: 250px;
+height: 76px;
+left: 1200px;
+top: 39px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+}
+/*.head1 a{
+         position: absolute;
+left: 1400px;
+top: 110px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+text-decoration: none;
+}
+.head1 a:hover{
+    color: rgb(255, 0, 0);
+}*/
+.top{
+    position: absolute;
+width: 410px;
+height: 360px;
+left: 686px;
+top: 437px;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height:25px;
+}
+.top2{
+    position: absolute;
+width: 600px;
+height: 100px;
+left: 686px;
+top: 470px;
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height:50px;
+}
+.log1 {
+    position: absolute;
+width: 646px;
+height: 410px;
+left: 0px;
+top: 437px;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 #000606;
+}
+.para{
+    position: absolute;
+width: 575px;
+height: 153px;
+left: 900px;
+top: 628px;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+color: #4F4646;
+}
+.logo1{
+    position: absolute;
+width: 215px;
+height: 150px;
+left: 655px;
+top: 605px;
+}
+.para2 ul{
+    position: absolute;
+width: 500px;
+height: 215px;
+left: 717px;
+top: 833px;
+font-family:"Poppins";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 50px;
+color: #000000;
+list-style:none;
+}
+.tick ul{
+    position: absolute;
+left: 680px;
+top: 840px;
+font-size: 20px;
+list-style: none;
+}
+.tick ul  :hover{
+    color: red;
+}
+
+.cont{
+    position: absolute;
+width: 1519px;
+height: 395px;
+left: 0px;
+top: 1098px;
+background: rgba(0, 0, 0, 0.85);
+}
+.co{
+    position: absolute;
+width: 397px;
+height: 396px;
+left: 46px;
+top: 1097px;
+
+background: rgba(0, 0, 0, 0.26);
+}
+.cn{
+    position: absolute;
+    width: 191px;
+    height: 37px;
+    left: 167px;
+    top: 1114px;
+    
+    font-family: 'Boogaloo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+.cn1{
+    
+position: absolute;
+width: 326px;
+height: 137px;
+left: 72px;
+top: 1156px;
+
+font-family: 'Cabin Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.cn2 {
+    position: absolute;
+width: 26px;
+height: 19px;
+left: 56px;
+top: 1323px;
+}
+.cn3{
+    position:absolute;
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+    width: 100px;
+    height: 19px;
+    left: 110px;
+    top: 1345px;
+    color: #FFFFFF;
+}
+.cn4{
+    position: absolute;
+width: 28px;
+height: 21px;
+left: 54px;
+top: 1379px;
+}
+.cn5
+{
+    position: absolute;
+width: 211px;
+height: 24px;
+left: 110px;
+top: 1400px;
+font-family: 'Cagliostro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.cn6{
+    position: absolute;
+width: 99px;
+height: 46px;
+left: 571px;
+top: 1129px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+
+}
+.c{
+    position: absolute;
+width: 140px;
+height: 46px;
+top: 1129px;
+left: 1000px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.cn7 a{
+    position: absolute;
+width: 78px;
+height: 32px;
+left: 592px;
+top: 1184px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.cn8 img{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1000px;
+top: 1184px;
+}
+.sd-hero-video-crop{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 100px;
+    height: 100px;
+}
+.wbx{
+    position:relative;
+  background-color: #ffffff;
+  top: 1050px;
+  width: 1519px;
+  height: 100px;
+  overflow: hidden;
+}
+.wbx .losli
+{
+    width:10000px;
+    display: flex;
+}
+.losli img
+{
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    float: left;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+         
+    /* Calculate the margin-left for
+  each of the slides */
+    10% {
+        left: 0px;
+    }
+    30% {
+        left: -1519px;
+    }
+    50% {
+        left: cal(-1519*2);
+    }
+    70% {
+        left: calc(-1519px * 2);
+    }
+    90%{
+        left: calc(-1519px * 2);
+
+    }
+}
+.contha{
+    position: absolute;
+width: 1519px;
+height: 395px;
+left: 0px;
+top: 1150px;
+background: rgba(0, 0, 0, 0.85);
+}
+.coha{
+    position: absolute;
+width: 397px;
+height: 396px;
+left: 46px;
+top: 1150px;
+
+background: rgba(0, 0, 0, 0.26);
+}
+.cnha{
+    position: absolute;
+    width: 191px;
+    height: 37px;
+    left: 167px;
+    top: 1170px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+.cn1ha{
+position: absolute;
+width: 326px;
+height: 137px;
+left: 72px;
+top: 1220px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.cn2ha{
+    position: absolute;
+width: 26px;
+height: 19px;
+left: 56px;
+top: 1390px;
+}
+.cn3ha{
+    position:absolute;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+    width: 100px;
+    height: 19px;
+    left: 110px;
+    top: 1400px;
+    color: #FFFFFF;
+}
+.cn4ha{
+    position: absolute;
+width: 28px;
+height: 21px;
+left: 54px;
+top: 1450px;
+}
+.cn5ha
+{
+position: absolute;
+width: 211px;
+height: 24px;
+left: 110px;
+top: 1455px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.cn6ha{
+    position: absolute;
+width: 200px;
+height: 46px;
+left: 571px;
+top: 1170px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+.cha{
+    position: absolute;
+width: 240px;
+height: 46px;
+top: 1170px;
+left: 1000px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.cn7ha a{
+    position: absolute;
+width: 78px;
+height: 32px;
+left: 592px;
+top: 1220px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.cn8ha img{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1000px;
+top: 1220px;
+}

@@ -1,0 +1,102 @@
+.hj img{
+position: absolute;
+width: 1000px;
+height: 712px;
+left: 489px;                   
+top: px;
+}
+.lob img{
+    position: absolute;
+width: 300px;
+height: 194px;
+left: 80px;
+top: 30px;
+}
+.wel{
+    position: absolute;
+width: 319px;
+height: 47px;
+left:80px;
+top: 232px;
+font-family: 'Arima Madurai';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 45px;
+}
+.loginb{
+position: absolute;
+width: 310  px;
+height: 47px;
+left: 190px;
+top: 330px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: 'normal';
+font-size: 18px;
+}
+.user{
+position: absolute;
+width: 310  px;
+height: 47px;
+left: 70px;
+top: 400px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: 'normal';
+font-size: 18px;
+}
+input[name="QWE"]{
+    position: absolute;
+width: 262px;
+height: 50px;
+left: 70px;
+top: 470px;
+background: #ffffff;
+border-radius: 7px;
+font-size: large;
+}
+.pass{
+    position: absolute;
+width: 310  px;
+height: 47px;
+left: 70px;
+top: 530px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: 'normal';
+font-size: 18px;
+}
+input[name="QWY"]{
+    position: absolute;
+    width: 262px;
+    height: 50px;
+    left: 70px;
+    top: 600px;
+    background: #ffffff;
+    border-radius: 7px;
+    font-size: large;
+}
+.si a{
+    position: absolute;
+width: 100px;
+height: 29px;
+left: 170px;
+top: 680px;
+text-align: center;
+font-family: 'italic';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+color: rgb(255, 255, 255);
+background-color:rgba(7,196,39,0.753);
+text-decoration: none;
+border-radius: 5px;
+border: none;
+}
+.bamck a{
+    position: absolute;
+    top: 660px;
+    left: 400px;
+    font-style: bold;
+    text-decoration: none;
+    color: black;
+}

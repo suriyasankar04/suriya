@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+.header{
+    position: absolute;
+    width: 1400px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.header2{
+    position: absolute;
+width: 190px;
+height: 24px;
+left: 52px;
+top: 0px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #E8E8E8;
+}
+img{
+    position: absolute;
+width: 41px;
+height: 36px;
+left: 0px;
+top: 10px;
+}
+.loginho a {
+    position: fixed;
+    z-index: 999;
+left: 1400px;
+top: 15px;
+font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 48px;
+color: #faf8f8;
+text-align: center;
+text-decoration: none;
+}
+.loginho a :hover
+{
+    background-color: #000;
+    color: #ccc;
+}
+
+.logo{
+    position: fixed;
+    width: 150px;
+    height: 70px;
+    left: 15px;
+    top: 0px;
+    z-index: 999;
+    box-shadow: none;
+}
+.wbox
+{
+    position: fixed;
+
+    width: 201px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+.index{
+    position: fixed;
+width: 1519px;
+height: 70px;
+left: 0px;
+top: 0px;
+z-index: 998;
+background-image: linear-gradient(140deg, #ffffff 0%, #ffffff 50%, #ffffff 75%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home a{
+    position: fixed;
+    z-index: 999;
+width: 142px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight:bolder;
+font-size: 18px;
+line-height: 0px;
+text-decoration: none;
+color: #000000;
+}
+button {
+    position: absolute;
+width: 142px;
+font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+text-decoration: none;
+color: #FFFFFF;
+box-shadow: 0 4px 8px 0 #000606;
+}
+.home a:hover{
+    color: red;
+    width: 100px;
+    height:50px;
+}
+.fro{
+    position:absolute;
+    width: 1519px;
+height:350px;
+left: 0px;
+top: 73px;
+z-index: -1;
+object-fit: cover;
+}
+.fros{
+    width: 700px;
+height:350px;
+left: 700px;
+top: 70px;
+z-index: -1;
+opacity: 0.15;
+}
+.best{
+    position: absolute;
+width: 668px;
+height: 109px;
+left: 37px;
+top: 414px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 51px;
+color: #FE0D0D;
+mix-blend-mode: darken;
+animation: drop-in 1000ms
+}
+.lux{
+position: absolute;
+width: 578px;
+height: 156px;
+left: 36px;
+top: 474px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 75px;
+color: #000000;
+animation: drop-in 1000ms
+}
+.luxcs{
+    position: absolute;
+width: 403px;
+height: 43px;
+left: 35px;
+top: 640px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #5e5e5e;
+animation: drop-in 1000ms
+}
+@keyframes drop-in {
+    from {
+      transform:
+        translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform:
+             translateY(0%);
+      opacity: 1;
+    }
+  }
+
+.bw{
+    position: absolute;
+width: 800px;
+height: 347px;
+left: 700px;
+top: 530px;
+animation: slide-in 2s;
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0.25;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+.of{
+    position: absolute;
+    text-align: center;
+width: 478px;
+height: 62px;
+left: 490px;
+top: 942px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+
+}
+.back{
+    position: absolute;
+    z-index: -1;
+width: 1440px;
+height: 560px;
+left: 30px;
+top: 904px;
+}
+.oss{
+    position: absolute;
+    text-align: center  ;
+width: 550px;
+height: 57px;
+left: 490px;
+top: 1480px;
+font-family:'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 58px;
+color: #000000;
+
+}
+.lg{
+    position: absolute;
+    text-align: center;
+width: 500px;
+height: 93px;
+left: 510px;
+top: 1530px;
+font-family:'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 58px;
+color: #000000;
+}
+.t1{
+    position: absolute;
+height: 83px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 58px;
+color: #e70505;
+}
+.t2{
+    position: absolute;
+width: 400px;
+height: 336px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 33px;
+color: #000000;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.sc{
+   position: absolute;
+   font-family: 'Average Sans';
+   font-style: normal;
+   font-weight: 400px;
+   font-size: 20px;
+   line-height: 55px;
+   text-align: center;
+   width: 140px;
+   top: 300px;
+   left: 1360px;
+   color:white;
+   top: 80px;
+   background-color: #CA0606;
+   box-shadow: none;
+   border: none;
+   border-radius: 5px;
+   
+}
+.sc:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   width: 140px;
+   
+}
+/* Set a style for all buttons */
+.bt button{
+  text-align: center;
+  color: rgb(232, 228, 228);
+  width: 100px;
+  height:40px;
+  left:700px;
+  background-color:#0dca06;
+  box-shadow: none;
+  border: none;
+          cursor: pointer;
+          border-radius: 5px;
+
+}
+
+.bt :hover {
+opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn button{
+width:max-content;
+height:40px;
+left: 1330px;
+background-color: white;
+color: #000;
+box-shadow: none;
+border: none;
+font-size: 15px;
+top:140px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 80%; /* Could be more or less, depending on screen size */
+height: 75.5%;
+}
+
+/* The Close Button (x) */
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+-webkit-animation: animatezoom 0.3s;
+animation: animatezoom 0.3s
+}
+
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+ display: block;
+ float: none;
+}
+.cancelbtn {
+ width: 100%;
+}
+}
+.vidtxt{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 2400px;
+    left: 800px;
+    font-family: 'Poppins';
+    font-size:35px;
+    font-weight: lighter;
+    color: rgb(255, 0, 0);
+}
+.vidtxt1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 2450px;
+    left: 800px;
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.vidpic img
+{
+    position: absolute;
+    left:15px;   
+    width: 1485px;
+    height: 400px;
+    top: 2750px;
+    border-radius: 15px;
+    
+}
+.wbxh{
+    position:relative;
+  background-color: #ffffff;
+  top: 3200px;
+  width: 1519px;
+  height: 100px;
+  overflow: hidden;
+}
+.wbxh .loslih
+{
+    width:10000px;
+    display: flex;
+}
+.loslih img
+{
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    float: left;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+         
+    /* Calculate the margin-left for
+  each of the slides */
+    10% {
+        left: 0px;
+    }
+    30% {
+        left: -1519px;
+    }
+    50% {
+        left: cal(-1519*2);
+    }
+    70% {
+        left: calc(-1519px * 2);
+    }
+    90%{
+        left: calc(-1519px * 2);
+
+    }
+}
+.conth{
+    position: absolute;
+width: 1519px;
+height: 395px;
+left: 0px;
+top: 3300px;
+background: rgba(0, 0, 0, 0.85);
+}
+.coh{
+    position: absolute;
+width: 397px;
+height: 396px;
+left: 46px;
+top: 3300px;
+
+background: rgba(0, 0, 0, 0.26);
+}
+.cnh{
+    position: absolute;
+    width: 191px;
+    height: 37px;
+    left: 167px;
+    top: 3320px;
+    
+    font-family: 'Boogaloo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+.cn1h{
+    
+position: absolute;
+width: 326px;
+height: 137px;
+left: 72px;
+top: 3380px;
+
+font-family: 'Cabin Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.cn2h{
+    position: absolute;
+width: 26px;
+height: 19px;
+left: 56px;
+top: 3550px;
+}
+.cn3h{
+    position:absolute;
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+    width: 100px;
+    height: 19px;
+    left: 110px;
+    top: 3560px;
+    color: #FFFFFF;
+}
+.cn4h{
+    position: absolute;
+width: 28px;
+height: 21px;
+left: 54px;
+top: 3610px;
+}
+.cn5h
+{
+    position: absolute;
+width: 211px;
+height: 24px;
+left: 110px;
+top: 3620px;
+font-family: 'Cagliostro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.cn6h{
+    position: absolute;
+width: 99px;
+height: 46px;
+left: 571px;
+top: 3320px;
+
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #FFFFFF;
+
+}
+.ch{
+    position: absolute;
+width: 140px;
+height: 46px;
+top: 3320px;
+left: 1000px;
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.cn7h a{
+    position: absolute;
+width: 78px;
+height: 32px;
+left: 592px;
+top: 3390px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.cn8h img{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1000px;
+top: 3390px;
+}

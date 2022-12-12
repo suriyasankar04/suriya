@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+    .top1 {
+        position: absolute; 
+        width: 1519px;
+        height: 350px;
+        left: 0px;
+        top: 73px;
+        object-fit:cover;
+    }
+    .head{
+        position: absolute;
+width: 413px;
+height: 109px;
+left: 700px;
+top: 185px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 76px;
+color: #000000;
+    }
+    .head1 a{
+             position: absolute;
+left: 700px;
+top: 250px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #000000;
+text-decoration: none;
+}
+    .head2 a{
+             position: absolute;
+left: 774px;
+top: 250px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #000000;
+text-decoration: none;
+}
+.head1 a:hover{
+        color: rgb(255, 0, 0);
+    }
+    .search{
+        position: absolute;
+width: 175px;
+height: 48px;
+left: 297px;
+top: 450px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #000000;
+}
+.car{
+    position: absolute;
+    width: 1000px;
+    height: 48px;
+    left: 297px;
+    top: 500px;
+    font-family:"Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    background: #EBEBEB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+.conin{
+    position:absolute;
+    left: 20px;
+    top:570px;
+    width: 450px;
+    height: 500px;
+    color: #EBEBEB;
+    
+    box-shadow: 0 4px 8px 0 #000606;
+}
+.c1  {
+        position: absolute;
+        left: 0px;
+        top:0px;
+     
+        width: 450px;
+        height: 350px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 #000606;
+        transition: 0.3s;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+    }
+    .c1:hover{
+  transform: scale(1.05);
+    }
+    .c2 {
+        position: absolute;
+        left: 535px;
+        width: 450px;
+        top: 570px;
+        height: 350px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px 0 #000606;
+        transition: 0.3s;
+
+	transform: scale(1);
+
+	transition: .3s ease-in-out;
+    }
+    .c2:hover{
+     
+        transform: scale(1.05);
+    }
+    .c3 {
+        position: absolute;
+        left: 1050px;
+        top: 570px;
+        width: 450px;
+        height: 350px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px 0 #000606;
+        transition: 0.3s;
+
+	transform: scale(1);
+
+	transition: .3s ease-in-out;
+    }
+    .c3:hover{
+    
+        transform: scale(1.05);
+    }
+    .c4 {
+        position: absolute;
+        left: 950px;
+        top: 1170px;
+        width: 500px;
+        height: 450px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px 0 #000606;
+        transition: 0.3s;
+
+	transform: scale(1);
+
+	transition: .3s ease-in-out;
+    }
+    .c4:hover{
+
+        transform: scale(1.05);
+    }

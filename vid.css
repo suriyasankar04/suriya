@@ -1,0 +1,53 @@
+.vid 
+{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+    top: 2222px;
+    object-fit: cover;
+}
+.wrapper1 {
+    width: 100px;
+    height: 100px;
+    
+
+
+}
+/*.wrapper1 ul{
+    position:absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    width: 10000px;
+    display: flex;
+}
+.wrapper1 ul li{
+    position: relative;
+    float: left;
+    width: 1519px;
+    height: 200px;
+}*/
+@keyframes move {
+         
+    /* Calculate the margin-left for
+  each of the slides */
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: -1519px;
+    }
+    30% {
+        left: cal(-1519*2);
+    }
+    40% {
+        left: calc(-1519px * 2);
+    }
+    50%{
+        left: calc(-1519px * 3);
+
+    }
+}
